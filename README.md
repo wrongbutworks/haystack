@@ -67,7 +67,7 @@
 | haystack/components/extractors/llm\_metadata\_extractor.py                |      173 |       16 |     91% |325-333, 347-355, 373-376, 419, 471 |
 | haystack/components/extractors/regex\_text\_extractor.py                  |       49 |        0 |    100% |           |
 | haystack/components/fetchers/\_\_init\_\_.py                              |        5 |        0 |    100% |           |
-| haystack/components/fetchers/link\_content.py                             |      202 |       27 |     87% |194-202, 269, 278-285, 318-322, 411-418, 451, 484 |
+| haystack/components/fetchers/link\_content.py                             |      202 |       18 |     91% |210-218, 285, 334-338, 423-427, 466, 499 |
 | haystack/components/generators/\_\_init\_\_.py                            |        5 |        0 |    100% |           |
 | haystack/components/generators/chat/\_\_init\_\_.py                       |        5 |        0 |    100% |           |
 | haystack/components/generators/chat/azure.py                              |       92 |        3 |     97% |213, 371, 374 |
@@ -94,7 +94,7 @@
 | haystack/components/preprocessors/document\_cleaner.py                    |      117 |        1 |     99% |       101 |
 | haystack/components/preprocessors/document\_preprocessor.py               |       46 |        2 |     96% |  162, 197 |
 | haystack/components/preprocessors/document\_splitter.py                   |      206 |        0 |    100% |           |
-| haystack/components/preprocessors/embedding\_based\_document\_splitter.py |      215 |       19 |     91% |246, 273-282, 297-298, 316-319, 429, 469-481, 551-552 |
+| haystack/components/preprocessors/embedding\_based\_document\_splitter.py |      226 |       12 |     95% |297-298, 429, 471-483, 501, 518, 588-589 |
 | haystack/components/preprocessors/hierarchical\_document\_splitter.py     |       60 |        0 |    100% |           |
 | haystack/components/preprocessors/markdown\_header\_splitter.py           |      166 |        6 |     96% |235-236, 244, 292, 315, 370 |
 | haystack/components/preprocessors/python\_code\_splitter.py               |      290 |       15 |     95% |150, 162, 190, 197, 231, 280, 308-310, 411-413, 415, 528, 596 |
@@ -146,7 +146,7 @@
 | haystack/core/pipeline/component\_checks.py                               |       66 |        0 |    100% |           |
 | haystack/core/pipeline/descriptions.py                                    |        6 |        0 |    100% |           |
 | haystack/core/pipeline/draw.py                                            |      199 |       41 |     79% |35-58, 142, 145, 148, 150, 158, 162-169, 296, 306, 378-380, 385, 393-394, 422-427 |
-| haystack/core/pipeline/pipeline.py                                        |      322 |       19 |     94% |173, 180, 423, 566, 589, 757, 950, 955, 972-976, 980-992, 1033-1042, 1067 |
+| haystack/core/pipeline/pipeline.py                                        |      322 |       21 |     93% |173, 180, 423, 566, 589, 757, 947-951, 955, 972-976, 980-992, 1033-1042, 1067 |
 | haystack/core/pipeline/utils.py                                           |       71 |        1 |     99% |       206 |
 | haystack/core/serialization.py                                            |      127 |        6 |     95% |75, 99, 246, 333, 349-350 |
 | haystack/core/serialization\_security.py                                  |       96 |        1 |     99% |       232 |
@@ -264,7 +264,7 @@
 | haystack/utils/type\_serialization.py                                     |      140 |        6 |     96% |103, 105, 256-257, 265, 281 |
 | haystack/utils/url\_validation.py                                         |        4 |        0 |    100% |           |
 | haystack/version.py                                                       |        5 |        2 |     60% |      9-10 |
-| **TOTAL**                                                                 | **16772** |  **786** | **95%** |           |
+| **TOTAL**                                                                 | **16783** |  **772** | **95%** |           |
 
 
 ## Setup coverage badge
