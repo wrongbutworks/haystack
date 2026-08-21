@@ -7,7 +7,7 @@
 | haystack/\_\_init\_\_.py                                                  |       11 |        0 |    100% |           |
 | haystack/components/\_\_init\_\_.py                                       |        0 |        0 |    100% |           |
 | haystack/components/agents/\_\_init\_\_.py                                |        5 |        0 |    100% |           |
-| haystack/components/agents/agent.py                                       |      354 |        3 |     99% |158, 174, 732 |
+| haystack/components/agents/agent.py                                       |      354 |        3 |     99% |158, 174, 733 |
 | haystack/components/agents/state/\_\_init\_\_.py                          |        5 |        0 |    100% |           |
 | haystack/components/agents/state/state.py                                 |       77 |        2 |     97% |    76, 80 |
 | haystack/components/agents/state/state\_utils.py                          |       18 |        0 |    100% |           |
@@ -75,8 +75,8 @@
 | haystack/components/generators/chat/fallback.py                           |       98 |        3 |     97% |   252-257 |
 | haystack/components/generators/chat/llm.py                                |       40 |        1 |     98% |       124 |
 | haystack/components/generators/chat/mock.py                               |      154 |        0 |    100% |           |
-| haystack/components/generators/chat/openai.py                             |      233 |        4 |     98% |468, 519, 690, 790 |
-| haystack/components/generators/chat/openai\_responses.py                  |      361 |       34 |     91% |288, 319, 408, 488, 504, 541, 566, 619-628, 644-645, 650, 660, 670-686, 695, 752, 849, 891-892, 905, 957, 979, 998 |
+| haystack/components/generators/chat/openai.py                             |      233 |        4 |     98% |470, 521, 692, 792 |
+| haystack/components/generators/chat/openai\_responses.py                  |      361 |       34 |     91% |288, 319, 409, 490, 506, 543, 568, 621-630, 646-647, 652, 662, 672-688, 697, 754, 851, 893-894, 907, 959, 981, 1000 |
 | haystack/components/generators/chat/types/\_\_init\_\_.py                 |        2 |        0 |    100% |           |
 | haystack/components/generators/chat/types/protocol.py                     |        4 |        0 |    100% |           |
 | haystack/components/generators/chat/utils.py                              |       11 |        0 |    100% |           |
@@ -190,7 +190,7 @@
 | haystack/hooks/human\_in\_the\_loop/dataclasses.py                        |       16 |        0 |    100% |           |
 | haystack/hooks/human\_in\_the\_loop/hooks.py                              |       30 |        1 |     97% |       117 |
 | haystack/hooks/human\_in\_the\_loop/policies.py                           |       17 |        0 |    100% |           |
-| haystack/hooks/human\_in\_the\_loop/strategies.py                         |      166 |        8 |     95% |120-121, 272, 321, 365, 426, 460, 633 |
+| haystack/hooks/human\_in\_the\_loop/strategies.py                         |      193 |        5 |     97% |338, 386, 430, 499, 706 |
 | haystack/hooks/human\_in\_the\_loop/types/\_\_init\_\_.py                 |        2 |        0 |    100% |           |
 | haystack/hooks/human\_in\_the\_loop/types/protocol.py                     |       25 |        0 |    100% |           |
 | haystack/hooks/human\_in\_the\_loop/user\_interfaces.py                   |       96 |        2 |     98% |   65, 103 |
@@ -264,7 +264,7 @@
 | haystack/utils/type\_serialization.py                                     |      144 |        6 |     96% |106, 108, 260-261, 269, 285 |
 | haystack/utils/url\_validation.py                                         |        4 |        0 |    100% |           |
 | haystack/version.py                                                       |        5 |        2 |     60% |      9-10 |
-| **TOTAL**                                                                 | **16833** |  **768** | **95%** |           |
+| **TOTAL**                                                                 | **16860** |  **765** | **95%** |           |
 
 
 ## Setup coverage badge
